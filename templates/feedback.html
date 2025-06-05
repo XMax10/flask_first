@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/feedback.css') }}">
+</head>
+<body>
+    <div class="menu">
+        <form method="POST">
+        <input class="input1" type="text" id="Id1" name="title" placeholder="Заголовок"><br>
+        <textarea class="textarea1" id="Id2" name="desckripshen" placeholder="Опис"></textarea><br>
+        <input class="input2" type="text" id="Id1" name="quation" placeholder="Чому я повинен це читати?"><br>
+        <input class="input3" type="text" id="Id1" name="E_Mail" placeholder="Ваш E-Mail"><br>
+        <button class="button2"><a href="index">Повернутися</a></button> <button class="button1">Відправити</button>
+        </form>
+    </div>
+</body>
+</html>
