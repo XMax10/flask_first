@@ -46,7 +46,7 @@ def form():
 
 
 
-app.run(host='localhost', port=8000)
+app.run(host='0.0.0.0', port=8000)
 
 
 
